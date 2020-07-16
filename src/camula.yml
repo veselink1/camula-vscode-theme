@@ -1,30 +1,30 @@
-name: Dracula
-author: Zeno Rocha
+name: Camula
+author: Veselin Karaganev, Zeno Rocha (Dracula Theme)
 maintainers:
-  - Derek P Sifford <dereksifford@gmail.com>
-semanticClass: theme.dracula
+  - Veselin Karaganev <vesko.karaganev@gmail.com>
+semanticClass: theme.camula
 semanticHighlighting: true
-dracula:
+camula:
   base:
-    - &BG        '#282A36'
-    - &FG        '#F8F8F2'
+    - &BG        '#22212c' # Ritual Dark
+    - &FG        '#F8F8F2' # Whitish
     - &SELECTION '#44475A'
     - &COMMENT   '#6272A4'
-    - &CYAN      '#8BE9FD'
-    - &GREEN     '#50FA7B'
-    - &ORANGE    '#FFB86C'
-    - &PINK      '#FF79C6'
-    - &PURPLE    '#BD93F9'
-    - &RED       '#FF5555'
-    - &YELLOW    '#F1FA8C'
+    - &CYAN      '#80FFEA' # Shoot Cyan
+    - &GREEN     '#8AFF80' # Not Grass-Green
+    - &ORANGE    '#FF9580' # Salmon Vibes
+    - &PINK      '#FF80BF' # Cute Pink
+    - &PURPLE    '#9580FF' # Awesome Purple
+    - &RED       '#FF5555' # Warning Red
+    - &YELLOW    '#FFFF80' # President Yellow
   ansi:
     - &COLOR0        '#21222C'
     - &COLOR1        '#FF5555'
-    - &COLOR2        '#50FA7B'
-    - &COLOR3        '#F1FA8C'
-    - &COLOR4        '#BD93F9'
-    - &COLOR5        '#FF79C6'
-    - &COLOR6        '#8BE9FD'
+    - &COLOR2        '#8AFF80'
+    - &COLOR3        '#FFFF80'
+    - &COLOR4        '#9580FF'
+    - &COLOR5        '#FF80BF'
+    - &COLOR6        '#80FFEA'
     - &COLOR7        '#F8F8F2'
     - &COLOR8        '#6272A4'
     - &COLOR9        '#FF6E6E'
@@ -39,15 +39,15 @@ dracula:
     - &TEMP_QUOTES          '#E9F284'
     - &TEMP_PROPERTY_QUOTES '#8BE9FE'
   other:
-    - &LineHighlight '#44475A75'
+    - &LineHighlight '#2B264075'
     - &NonText       '#FFFFFF1A'
     - &WHITE         '#FFFFFF'
-    - &TAB_DROP_BG   '#44475A70'
+    - &TAB_DROP_BG   '#2B264070'
     # UI Variants
-    - &BGLighter     '#424450'
-    - &BGLight       '#343746' # HSV (230   , 25.71, 27.45)
-    - &BGDark        '#21222C' # HSV (234.55, 25   , 17.25)
-    - &BGDarker      '#191A21' # HSV (234.55, 25   , 13   )
+    - &BGLighter     '#454158' # HSL (250,  15%,  30%)
+    - &BGLight       '#2B2640' # HSL (252,  25%,  20%)
+    - &BGDark        '#151320' # HSL (249,  25%,  10%)
+    - &BGDarker      '#0B0A10' # HSL (250,  23%,   5%)
 
 # User Interface (more info: https://code.visualstudio.com/docs/getstarted/theme-color-reference)
 colors:

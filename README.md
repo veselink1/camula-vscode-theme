@@ -1,20 +1,18 @@
-# Dracula for [Visual Studio Code](http://code.visualstudio.com)
+# Camula for [Visual Studio Code](http://code.visualstudio.com)
 
-> A dark theme for [Visual Studio Code](http://code.visualstudio.com).
+> Camula is a fork of the popular [Dracula VSCode Code theme](https://github.com/dracula/visual-studio-code).
 
-![Screenshot](https://raw.githubusercontent.com/dracula/visual-studio-code/master/screenshot.png)
+![Screenshot](https://raw.githubusercontent.com/veselink1/camula-vscode-theme/master/screenshot.png)
 
 ## Install
 
-All instructions can be found at [draculatheme.com/visual-studio-code](https://draculatheme.com/visual-studio-code).
+See [INSTALL.md](https://raw.githubusercontent.com/veselink1/camula-vscode-theme/master/screenshot.png).
 
 ## Team
 
-This theme is maintained by the following person(s) and a bunch of [awesome contributors](https://github.com/dracula/visual-studio-code/graphs/contributors).
+This theme is maintained by the following person.
 
-[![Derek S.](https://avatars3.githubusercontent.com/u/5240018?v=3&s=70)](https://github.com/dsifford) |
-:---: |
-[Derek S.](https://github.com/dsifford) |
+[![Veselin Karaganev](https://avatars3.githubusercontent.com/u/12015256?v=3&s=70)](https://github.com/veselink1)
 
 ## Contributing
 
