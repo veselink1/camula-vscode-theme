@@ -52,9 +52,9 @@ const transformSoft = (yamlContent, yamlObj) => {
     );
 };
 
-module.exports = async () => {
+module.exports = async (filename) => {
     const yamlFile = await readFile(
-        join(__dirname, '..', 'src', 'camula.yml'),
+        join(__dirname, '..', 'src', filename),
         'utf-8'
     );
 

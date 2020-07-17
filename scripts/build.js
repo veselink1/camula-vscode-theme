@@ -9,17 +9,35 @@ if (!fs.existsSync(THEME_DIR)) {
 }
 
 module.exports = async () => {
-    const { base, soft } = await generate();
+    const { base: camulaBase, soft: camulaSoft } = await generate('camula.yml');
+    const { base: moonBase, soft: moonSoft } = await generate('camula-moon.yml');
+    const { base: sunBase, soft: sunSoft } = await generate('camula-sun.yml');
 
     return Promise.all([
         fs.promises.writeFile(
             path.join(THEME_DIR, 'camula.json'),
-            JSON.stringify(base, null, 4)
+            JSON.stringify(camulaBase, null, 4)
         ),
         fs.promises.writeFile(
             path.join(THEME_DIR, 'camula-soft.json'),
-            JSON.stringify(soft, null, 4)
+            JSON.stringify(camulaSoft, null, 4)
         ),
+        fs.promises.writeFile(
+            path.join(THEME_DIR, 'camula-moon.json'),
+            JSON.stringify(moonBase, null, 4)
+        ),
+        fs.promises.writeFile(
+            path.join(THEME_DIR, 'camula-moon-soft.json'),
+            JSON.stringify(moonSoft, null, 4)
+        ),
+        fs.promises.writeFile(
+            path.join(THEME_DIR, 'camula-sun.json'),
+            JSON.stringify(sunBase, null, 4)
+        ),
+        fs.promises.writeFile(
+            path.join(THEME_DIR, 'camula-sun-soft.json'),
+            JSON.stringify(sunSoft, null, 4)
+        )
     ]);
 };
 

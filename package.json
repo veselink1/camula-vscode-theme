@@ -1,6 +1,6 @@
 {
 	"name": "theme-camula",
-	"version": "2.22.1",
+	"version": "1.0.0",
 	"displayName": "Camula Official",
 	"homepage": "https://github.com/veselink1/camula-vscode-theme",
 	"description": "Official Camula Theme for VSCode",
@@ -52,6 +52,26 @@
 				"label": "Camula Soft",
 				"uiTheme": "vs-dark",
 				"path": "./theme/camula-soft.json"
+			},
+			{
+				"label": "Camula Sun",
+				"uiTheme": "vs-dark",
+				"path": "./theme/camula-sun.json"
+			},
+			{
+				"label": "Camula Sun Soft",
+				"uiTheme": "vs-dark",
+				"path": "./theme/camula-sun-soft.json"
+			},
+			{
+				"label": "Camula Moon",
+				"uiTheme": "vs-dark",
+				"path": "./theme/camula-moon.json"
+			},
+			{
+				"label": "Camula Moon Soft",
+				"uiTheme": "vs-dark",
+				"path": "./theme/camula-moon-soft.json"
 			}
 		]
 	},

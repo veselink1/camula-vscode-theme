@@ -1,4 +1,4 @@
-name: Camula
+name: Camula Moon
 author: Veselin Karaganev, Zeno Rocha (Dracula Theme)
 maintainers:
   - Veselin Karaganev <vesko.karaganev@gmail.com>
@@ -6,26 +6,26 @@ semanticClass: theme.camula
 semanticHighlighting: true
 camula:
   base:
-    - &BG        '#22212C'
-    - &FG        '#F8F8F2'
+    - &BG        '#292D3E'
+    - &FG        '#D0D0D0'
     - &SELECTION '#44475A'
     - &COMMENT   '#6272A4'
-    - &CYAN      '#80FFEA'
-    - &GREEN     '#8AFF80'
-    - &ORANGE    '#FF9580'
-    - &PINK      '#FF80BF'
-    - &PURPLE    '#9580FF'
+    - &CYAN      '#89DDFF'
+    - &GREEN     '#C3E88D'
+    - &ORANGE    '#F07178'
+    - &PINK      '#C792EA'
+    - &PURPLE    '#82AAFF'
     - &RED       '#FF5555'
-    - &YELLOW    '#FFFF80'
+    - &YELLOW    '#FFCB6B'
   ansi:
     - &COLOR0        '#21222C'
     - &COLOR1        '#FF5555'
-    - &COLOR2        '#8AFF80'
-    - &COLOR3        '#FFFF80'
-    - &COLOR4        '#9580FF'
-    - &COLOR5        '#FF80BF'
-    - &COLOR6        '#80FFEA'
-    - &COLOR7        '#F8F8F2'
+    - &COLOR2        '#C3E88D'
+    - &COLOR3        '#FFCB6B'
+    - &COLOR4        '#82AAFF'
+    - &COLOR5        '#C792EA'
+    - &COLOR6        '#89DDFF'
+    - &COLOR7        '#D0D0D0'
     - &COLOR8        '#6272A4'
     - &COLOR9        '#FF6E6E'
     - &COLOR10       '#69FF94'
@@ -39,15 +39,15 @@ camula:
     - &TEMP_QUOTES          '#E9F284'
     - &TEMP_PROPERTY_QUOTES '#8BE9FE'
   other:
-    - &LineHighlight '#2B264075'
+    - &LineHighlight '#272C3F75'
     - &NonText       '#FFFFFF1A'
     - &WHITE         '#FFFFFF'
-    - &TAB_DROP_BG   '#2B264070'
+    - &TAB_DROP_BG   '#272C3F70'
     # UI Variants
-    - &BGLighter     '#454158' # HSL (250,  15%,  30%)
-    - &BGLight       '#2B2640' # HSL (252,  25%,  20%)
-    - &BGDark        '#151320' # HSL (249,  25%,  10%)
-    - &BGDarker      '#0B0A10' # HSL (250,  23%,   5%)
+    - &BGLighter     '#394360' # HSL (225,  25%,  30%)
+    - &BGLight       '#272C3F' # HSL (227,  23%,  20%)
+    - &BGDark        '#15161E' # HSL (231,  19%,  10%)
+    - &BGDarker      '#0A0B0F' # HSL (233,  18%,  5%)
 
 # User Interface (more info: https://code.visualstudio.com/docs/getstarted/theme-color-reference)
 colors:

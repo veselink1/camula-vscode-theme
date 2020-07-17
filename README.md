@@ -6,7 +6,7 @@
 
 ## Install
 
-See [INSTALL.md](https://raw.githubusercontent.com/veselink1/camula-vscode-theme/master/screenshot.png).
+See [INSTALL.md](./INSTALL.md).
 
 ## Team
 
